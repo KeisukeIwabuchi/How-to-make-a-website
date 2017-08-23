@@ -10,5 +10,9 @@
     font-size: 24px;
     line-height: 50px;
     text-decoration: none;
+
+    &:link, &:visited, &:hover, &:active {
+      color: $white;
+    }
   }
 }
