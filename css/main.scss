@@ -1,15 +1,8 @@
-a {
-  text-decoration: underline;
-}
+// main
+@import '_core/_color.scss';
 
-h1 {
-  font-size: 20px;
-}
+@import '_layout/_reset.scss';
+@import '_layout/_default.scss';
 
-h2 {
-  font-size: 18px;
-}
-
-h3 {
-  font-size: 16px;,
-}
+@import '_modules/_header.scss';
+@import '_modules/_footer.scss';
