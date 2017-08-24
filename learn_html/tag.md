@@ -1,3 +1,7 @@
+---
+layout: index
+title: Testページ
+---
 # HTMLの基礎
 HTMLはタグで作る。
 
@@ -5,10 +9,10 @@ HTMLはタグで作る。
 <!DOCTYPE html>
 <html>
   <head>
-  
+
   </head>
   <body>
-  
+
   </body>
 </html>
 ```
