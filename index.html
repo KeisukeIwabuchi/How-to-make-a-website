@@ -5,6 +5,31 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/How-to-make-a-website/css/main.min.css">
     <script src="/How-to-make-a-website/js/logo.js"></script>
+    <style>
+      .contents {
+        width: 900px;
+        margin: 20px auto 0;
+      }
+      .panel {
+        display: flex;
+        width: 300px;
+        margin: 0 0 10px;
+        padding: 20px;
+        border: 1px solid #666;
+        border-radius: 8px;
+        box-shadow: 2px 2px 6px 2px #999;
+        background: linear-gradient(to bottom right, #444 0%, #111 100%);
+        color: #fff;
+        font-weight: bold;
+      }
+      .panel:hover {
+        background: linear-gradient(to bottom right, #888 0%, #555 100%);
+        box-shadow: 2px 2px 6px 2px #2196F3;
+      }
+      .panel div {
+        line-height: 65px;
+      }
+    </style>
   </head>
   <body>
     <nav class="header">
@@ -13,21 +38,32 @@
       </a>
     </nav>
     <div class="contents">
-      <h1>Webサイトの作り方</h1>
-      <ol>
+      <ul>
         <li>
-          <a href="/How-to-make-a-website/learn_html/">
-            <canvas id="html5" width="190" height="220"></canvas>HTMLを学ぶ
+          <a href="learn_html">
+            <div class="panel">
+              <canvas id="html5" width="65" height="65"></canvas>
+              <div>HTMLについて学ぶ</div>
+            </div>
           </a>
+        </li>
         <li>
-          <a href="/How-to-make-a-website/learn_css/">
-            <canvas id="css3" width="190" height="220"></canvas>CSSを学ぶ
+          <a href="learn_css">
+            <div class="panel">
+              <canvas id="css3" width="65" height="65"></canvas>
+              <div>CSSについて学ぶ</div>
+            </div>
           </a>
+        </li>
         <li>
-          <a href="/How-to-make-a-website/learn_javascript/">
-            <canvas id="js" width="190" height="220"></canvas>JavaScriptを学ぶ
+          <a href="learn_javascript">
+            <div class="panel">
+              <canvas id="js" width="65" height="65"></canvas>
+              <div>JavaScriptについて学ぶ</div>
+            </div>
           </a>
-      </ol>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
