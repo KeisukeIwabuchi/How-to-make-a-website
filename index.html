@@ -6,31 +6,6 @@
     <link rel="shortcut icon" href="/How-to-make-a-website/img/favicon.ico">
     <link rel="stylesheet" href="/How-to-make-a-website/css/main.min.css">
     <script src="/How-to-make-a-website/js/logo.js"></script>
-    <style>
-      .contents {
-        width: 900px;
-        margin: 20px auto 0;
-      }
-      .panel {
-        display: flex;
-        width: 300px;
-        margin: 0 0 10px;
-        padding: 20px;
-        border: 1px solid #666;
-        border-radius: 8px;
-        box-shadow: 2px 2px 6px 2px #999;
-        background: linear-gradient(to bottom right, #444 0%, #111 100%);
-        color: #fff;
-        font-weight: bold;
-      }
-      .panel:hover {
-        background: linear-gradient(to bottom right, #888 0%, #555 100%);
-        box-shadow: 2px 2px 6px 2px #2196F3;
-      }
-      .panel div {
-        line-height: 65px;
-      }
-    </style>
   </head>
   <body>
     <nav class="header">
@@ -38,33 +13,26 @@
         How to make a website?
       </a>
     </nav>
-    <div class="contents">
-      <ul>
-        <li>
+    <div class="container">
+      <div class="sun"></div>
+      <div class="html5 subject">
           <a href="learn_html">
-            <div class="panel">
-              <canvas id="html5" width="65" height="65"></canvas>
-              <div>HTMLについて学ぶ</div>
-            </div>
+            <canvas id="html5" width="65" height="65"></canvas>
+            <div class="text">HTML5について学ぶ</div>
           </a>
-        </li>
-        <li>
-          <a href="learn_css">
-            <div class="panel">
-              <canvas id="css3" width="65" height="65"></canvas>
-              <div>CSSについて学ぶ</div>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="learn_javascript">
-            <div class="panel">
-              <canvas id="js" width="65" height="65"></canvas>
-              <div>JavaScriptについて学ぶ</div>
-            </div>
-          </a>
-        </li>
-      </ul>
+      </div>
+      <div class="css3 subject">
+        <a href="learn_css">
+          <canvas id="css3" width="65" height="65"></canvas>
+          <div class="text">CSS3について学ぶ</div>
+        </a>
+      </div>
+      <div class="js subject">
+        <a href="learn_javascript">
+          <canvas id="js" width="65" height="65"></canvas>
+          <div class="text">JavaScriptについて学ぶ</div>
+        </a>
+      </div>
     </div>
   </body>
 </html>
