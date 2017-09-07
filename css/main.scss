@@ -2,6 +2,7 @@
 @import '_core/_color.scss';
 
 @import '_layout/_reset.scss';
+@import '_layout/_top.scss';
 
 @import '_modules/_header.scss';
 
@@ -10,5 +11,5 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 a, a:link, a:visited, a:hover, a:active {
-  text-decoration: none;;
+  text-decoration: none;
 }

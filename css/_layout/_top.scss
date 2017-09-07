@@ -1,0 +1,71 @@
+$skyBlue: #add8e6;
+
+.container {
+  position: relative;
+  height: 200vh;
+  background: linear-gradient(to bottom, darken($skyBlue, 30%), $skyBlue, $skyBlue);
+
+  div {
+    position: absolute;
+  }
+}
+
+.sun {
+  top: 50px;
+  left: 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 5px #ffff7f;
+  background-color: #ffff7f;
+}
+
+.subject {
+  canvas {
+    animation: loading 2s infinite linear;
+  }
+
+  .text {
+    display: none;
+  }
+
+  &:hover {
+    .text {
+      display: block;
+    }
+  }
+}
+
+.html5 {
+  top: 180px;
+  left: 200px;
+
+}
+
+.css3 {
+  top: 320px;
+  left: 920px;
+}
+
+.js {
+  top: 700px;
+  left: 700px;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(60deg);
+  }
+  50%{
+    transform: rotate(0deg);
+  }
+  75%{
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  };
+}
