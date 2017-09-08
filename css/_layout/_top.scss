@@ -10,6 +10,13 @@ $skyBlue: #add8e6;
   }
 }
 
+.title {
+  top: 50px;
+  left: calc(50% - 200px);
+  width: 400px;
+  text-align: center;
+}
+
 .sun {
   top: 50px;
   left: 100px;
@@ -38,18 +45,18 @@ $skyBlue: #add8e6;
 
 .html5 {
   top: 180px;
-  left: 200px;
+  left: 15%;
 
 }
 
 .css3 {
   top: 320px;
-  left: 920px;
+  left: 80%;
 }
 
 .js {
-  top: 700px;
-  left: 700px;
+  top: 550px;
+  left: 50%;
 }
 
 @keyframes loading {
