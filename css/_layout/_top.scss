@@ -31,13 +31,11 @@ $skyBlue: #add8e6;
   canvas {
     animation: loading 2s infinite linear;
   }
-
-  .text {
+  .tooptip {
     display: none;
   }
-
   &:hover {
-    .text {
+    .tooltip {
       display: block;
     }
   }
@@ -46,7 +44,6 @@ $skyBlue: #add8e6;
 .html5 {
   top: 180px;
   left: 15%;
-
 }
 
 .css3 {
