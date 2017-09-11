@@ -3,9 +3,10 @@ skyBlue = #add8e6
 .container
   position relative
   height 200vh
+  padding 0 0 150px
   background linear-gradient(to bottom, darken(skyBlue, 30%), skyBlue, skyBlue)
 
-  div
+  > div
     position absolute
 
 .title
@@ -26,8 +27,14 @@ skyBlue = #add8e6
 .subject
   canvas
     animation loading 2s infinite linear
-  .tooptip
+  .tooltip
     display none
+    height 14px
+    padding 8px 16px
+    border-radius 15px
+    background-color #f44336
+    color white
+    font-size 14px
   &:hover
     .tooltip
       display block
