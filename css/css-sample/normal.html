@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8">
+    <title>Sample01</title>
+    <style>
+      h1 {
+        width: 660px;
+        margin: 0 auto;
+        font-size: 48px;
+      }
+      
+      p {
+        width: 660px;
+        margin: 0 auto;
+        font-size: 18px;
+        font-weight: bold;
+      }
+ 
+      .box {
+        display: flex;
+        width: 660px;
+        height: 250px;
+        margin: 50px auto;
+        padding: 0 20px;
+        border-radius: 125px; 
+        background-color: #ddd;
+        line-height: 250px;
+      }
+      
+      .item-blue {
+        width: 200px;
+        height: 200px;
+        margin: 25px 10px;
+        border-radius: 100px;
+        background-color: #1565C0;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 200px;
+      }
+      
+      .item-yellow {
+        width: 200px;
+        height: 200px;
+        margin: 25px 10px;
+        border-radius: 100px;
+        background-color: #F9A825;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 200px;
+      }
+      
+      .item-red {
+        width: 200px;
+        height: 200px;
+        margin: 25px 10px;
+        border-radius: 100px;
+        background-color: #C62828;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSSを使わない書き方</h1>
+    <div class="box">
+      <div class="item-blue">
+        .item-blue
+      </div>
+      <div class="item-yellow">
+        .item-yellow
+      </div>
+      <div class="item-red">
+        .item-red
+      </div>
+    </div>
+    <p>
+      それぞれに一つのクラス名を付ける。<br>
+      スタイルはコピペで複製し、色だけ変えるやり方。<br>
+      新しい色を追加するときはさらにコピペする。<br>
+      サイズを200pxから100pxに変更したくなった場合は？<br>
+      重複した記述があってファイルサイズが肥大化する。
+    </p>
+  </body>
+</html>
