@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8">
+    <title>Sample01</title>
+    <style>
+      h1 {
+        width: 660px;
+        margin: 0 auto;
+        font-size: 48px;
+      }
+      
+      p {
+        width: 660px;
+        margin: 0 auto;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .traffic-light {
+        display: flex;
+        width: 660px;
+        height: 250px;
+        margin: 50px auto;
+        padding: 0 20px;
+        border-radius: 125px; 
+        background-color: #ddd;
+        line-height: 125px;
+      }
+      
+      .traffic-light__item {
+        width: 200px;
+        height: 40px;
+        margin: 25px 10px;
+        padding: 80px 0;
+        border-radius: 100px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        line-height: 20px;
+      }
+      
+      .traffic-light__item-blue {
+        background-color: #1565C0;
+      }
+      
+      .traffic-light__item-yellow {
+        background-color: #F9A825;
+      }
+      
+      .traffic-light__item-red {
+        background-color: #C62828;
+      }
+      
+      .traffic-light__item-bule--active {
+        background-color: #4FC3F7;
+        box-shadow: 0 0 8px 4px #E1F5FE;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BEM</h1>
+    <div class="traffic-light">
+      <div class="traffic-light__item traffic-light__item-blue">
+        .traffic-light__item<br>
+        .traffic-light__item-blue
+      </div>
+      <div class="traffic-light__item traffic-light__item-yellow">
+        .traffic-light__item<br>
+        .traffic-light__item-yellow
+      </div>
+      <div class="traffic-light__item traffic-light__item-red">
+        .traffic-light__item<br>
+        .traffic-light__item-red
+      </div>
+    </div>
+    <p>
+      Block, Element, Modifierの3つでクラスを命名する。<br>
+      Block ・・・ 塊<br>
+      Element ・・・ 塊を構成する要素<br>
+      Modifier ・・・ 要素（または塊）の状態<br>
+      Component毎に一つのBlockとして命名することで、クラス名の重複を回避できる。<br>
+      クラス名が長くなりがちだが、SASSなどのCSSメタ言語を使うとスッキリ書ける。
+    </p>
+  </body>
+</html>

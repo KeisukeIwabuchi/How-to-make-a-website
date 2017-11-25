@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf8">
+    <title>Sample01</title>
+    <style>
+      h1 {
+        width: 660px;
+        margin: 0 auto;
+        font-size: 48px;
+      }
+      
+      p {
+        width: 660px;
+        margin: 0 auto;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .box {
+        display: flex;
+        width: 660px;
+        height: 250px;
+        margin: 50px auto;
+        padding: 0 20px;
+        border-radius: 125px; 
+        background-color: #ddd;
+        line-height: 250px;
+      }
+      
+      .item {
+        width: 200px;
+        height: 200px;
+        margin: 25px 10px;
+        border-radius: 100px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 200px;
+      }
+      
+      .item-blue {
+        background-color: #1565C0;
+      }
+      
+      .item-yellow {
+        background-color: #F9A825;
+      }
+      
+      .item-red {
+        background-color: #C62828;
+      }
+      
+      .item-lightbule {
+        background-color: #4FC3F7;
+        box-shadow: 0 0 8px 4px #E1F5FE;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>OOCSS</h1>
+    <div class="box">
+      <div class="item item-blue">
+        .item .item-blue
+      </div>
+      <div class="item item-yellow">
+        .item .item-yellow
+      </div>
+      <div class="item item-red">
+        .item .item-red
+      </div>
+    </div>
+    <p>
+      構造と見た目を分離して定義するのが特徴。<br>
+      構造 ・・・ width, height, border, margin, paddingなど要素の形<br>
+      スキン ・・・ border-color, background-color, colorなど<br>
+      再利用性が高い。
+    </p>
+  </body>
+</html>
